@@ -1,0 +1,30 @@
+header
+	.navbar.navbar-expand-lg.navbar-light
+		+pad(0)
+	.navbar-brand
+		+fz(1rem)
+		display: flex
+		h1
+			color: #fff
+			font-family: 'Times New Roman', Times, serif
+		p
+			color: lighten(#7d554b, 20%)
+		
+	ul
+		display: flex
+		background: $nau 
+		width: 100%
+		height: 3.5rem
+		li
+			list-style: none
+			a		
+				color: #fff
+				+pad(1rem 1.2rem)
+				border-right: 1px solid #fff
+				&:hover
+					text-decoration: none
+					background: #fff
+					color: #000
+					border-radius: 10px
+				
+			

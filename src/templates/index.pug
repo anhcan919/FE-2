@@ -1,0 +1,38 @@
+extends _layout/layout
+
+//- Các giá trị mặc định cho trang web
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+//- Phần khai báo body
+block body
+	//- Bạn viết code vào đây nhớ là phải mở đầu bằng section ở mỗi khối
+	section.slider
+		.container.bg
+			.row
+				.col-sm-4
+					figure
+						img(src="img/maybay.png", alt="")
+				.col-sm-6
+					.text
+						h2 About
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quisquam esse libero repellat. Quisquam explicabo nisi temporibus facere, mollitia, consequatur quam soluta nemo debitis veniam dolor similique voluptatibus, ea impedit?
+	section.cuocsongma
+		.container
+			.row
+				.col-sm-3.cl1
+					.text
+						p About Us
+						p How We Work
+						p Testimonials
+						p Contact Support
+						
+				.col-sm-9.cl2
+					.content
+						h2 How We Work
+						p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ipsam voluptatibus temporibus rerum quas recusandae earum numquam laborum? Maiores repellat omnis doloremque libero facilis iusto tempore aperiam itaque, voluptate cum. impedit quam. Doloribus optio fugit delectus praesentium inventore sequi modi tenetur repellat eius aliquid quod dignissimos, debitis veritatis.
+						p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, ut eius? Nulla quos atque assumenda cum dignissimos reprehenderit corrupti perferendis eum! Reiciendis asperiores harum repellendus sequi deserunt ab suscipit magnam! impedit quam. Doloribus optio fugit delectus praesentium inventore sequi modi tenetur repellat eius aliquid quod dignissimos, debitis veritatis.
+						p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nostrum aliquid numquam dolore a est placeat eos ipsam illum nemo omnis 
+						p Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium incidunt facere dolor impedit quam. Doloribus optio fugit delectus praesentium inventore sequi modi tenetur repellat eius aliquid quod dignissimos, debitis veritatis. impedit quam. Doloribus optio fugit delectus praesentium inventore sequi modi tenetur repellat eius aliquid quod dignissimos, debitis veritatis.
